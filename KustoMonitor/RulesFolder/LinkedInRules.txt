@@ -1,0 +1,13 @@
+﻿[{
+		"RuleId":	"Azure_Test",
+		"AlertQuery":	"ForecastExample | where Timestamp > datetime(2017-01-16) | count",
+		"IsEnable":	true,
+		"DataSource":	"https://help.kusto.windows.net/Samples;Fed=true",
+		"AlertSeverity":	1,
+		"EmailNotificationAddress":	"6750163hy@163.com",
+		"Owner":"v-gus@microsoft.com",
+		"AlertSuppressionWindowInMinutes":	1,
+		"Threshold": 0,
+		"Operation": ">"
+	}
+]
