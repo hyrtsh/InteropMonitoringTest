@@ -30,11 +30,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Kusto.Cloud.Platform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=829a00acde12d551, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Kusto.Client.4.0.0\lib\net45\Kusto.Cloud.Platform.dll</HintPath>
+    <Reference Include="Kusto.Cloud.Platform">
+      <HintPath>ReferenceDll\Kusto.Cloud.Platform.dll</HintPath>
     </Reference>
-    <Reference Include="Kusto.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=829a00acde12d551, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Kusto.Client.4.0.0\lib\net45\Kusto.Data.dll</HintPath>
+    <Reference Include="Kusto.Data">
+      <HintPath>ReferenceDll\Kusto.Data.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.IdentityModel.Clients.ActiveDirectory, Version=3.19.8.16603, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.3.19.8\lib\net45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll</HintPath>
@@ -113,7 +113,6 @@
     <None Include="app.config" />
     <None Include="Kusto.Cloud.Platform.dll.old.tweaks" />
     <None Include="Kusto.Cloud.Platform.dll.tweaks" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BaseMonitor\BaseMonitor.csproj">

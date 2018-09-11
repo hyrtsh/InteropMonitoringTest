@@ -1,5 +1,5 @@
 
-*.dll
+
 *.pdb
 *.CopyComplete
 *.cache
