@@ -35,3 +35,6 @@ InteropMonitoring/bin/Debug/Newtonsoft.Json.xml
 InteropMonitoring/bin/Debug/RuleExecuteInfo/store.json
 .vs/InteropMonitoring/v15/.suo
 .vs/InteropMonitoring/v15/sqlite3/storage.ide
+/InteropMonitoring/obj/Debug
+/Utility/obj/Debug
+/KustoMonitor/obj/Debug
